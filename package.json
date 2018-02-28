@@ -1,0 +1,19 @@
+{
+  "name": "metro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "author": "TM",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "angular": "^1.6.9",
+    "bootstrap": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000  -c-1"
+  }
+}

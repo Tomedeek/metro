@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="metro">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="prod/style.css">
+
+</head>
+<body ng-controller="metroController">
+
+    <table class="table table-striped table-sm" ng-if="!endMetro && !optimalWay">
+        <tr>
+            <th>Початкова станція</th>
+        </tr>
+        <tr ng-repeat="item in metro">
+            <td><a href ng-click="endStation(item.station)">{{item.station}}</a></td>
+        </tr>
+    </table>
+
+    <table class="table table-striped table-sm" ng-if="endMetro && !optimalWay">
+        <tr>
+            <th>Кінцева станція</th>
+        </tr>
+        <tr ng-repeat="item in endMetro">
+            <td><a href ng-click="minWay(item.station)">{{item.station}}</a></td>
+        </tr>
+    </table>
+
+    <div class="offset-5 col-2 jumbotron text-center" ng-if="optimalWay">
+        <h3>Оптимальна лінія метро: {{optimalWay}}</h3>
+        <a href ng-click="restart()">Обрахувати ще раз</a>
+    </div>
+
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="prod/main.js"></script>
+</body>
+</html>

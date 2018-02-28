@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Black",
+    "stations": [
+      {
+        "station": "King`s Cross",
+        "lengthLine": 12
+      },
+      {
+        "station": "Euston",
+        "lengthLine": 13
+      },
+      {
+        "station": "Angel",
+        "lengthLine": 14
+      },
+      {
+        "station": "Old Street",
+        "lengthLine": 15
+      },
+      {
+        "station": "Moorgate",
+        "lengthLine": 16
+      },
+      {
+        "station": "London Bridge",
+        "lengthLine": 17
+      },
+      {
+        "station": "Borough"
+      }
+    ]
+  },
+
+  {
+    "name": "Yellow",
+    "stations": [
+      {
+        "station": "Farringdon",
+        "lengthLine": 10
+      },
+      {
+        "station": "Barbigan",
+        "lengthLine": 17
+      },
+      {
+        "station": "Moorgate",
+        "lengthLine": 14
+      },
+      {
+        "station": "Liverpool Street",
+        "lengthLine": 13
+      },
+      {
+        "station": "Tower Hill",
+        "lengthLine": 17
+      },
+      {
+        "station": "Monument",
+        "lengthLine": 13
+      },
+      {
+        "station": "Cannon Street"
+      }
+    ]
+  },
+
+  {
+    "name": "Green",
+    "stations": [
+      {
+        "station": "Bow Church",
+        "lengthLine": 10
+      },
+      {
+        "station": "Stepney Green",
+        "lengthLine": 10
+      },
+      {
+        "station": "Whitechapel",
+        "lengthLine": 14
+      },
+      {
+        "station": "Aldgate East",
+        "lengthLine": 13
+      },
+      {
+        "station": "Tower Hill",
+        "lengthLine": 10
+      },
+      {
+        "station": "Monument",
+        "lengthLine": 11
+      },
+      {
+        "station": "Cannon Street"
+      }
+    ]
+  }
+]
